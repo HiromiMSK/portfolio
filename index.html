@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Hiromi | Portfólio Ninja</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="rag.css">
+
+    <link rel="preload" as="image" href="costas.png">
+</head>
+
+<body>
+
+    <div id="levelup-container"></div>
+    <div class="cenario"></div>
+
+    <div class="progress-bar">
+        <div class="progress-fill"></div>
+        <div class="hp-text">HP 100%</div>
+    </div>
+
+    <div class="npc-valkyrie">
+        <img src="Valkyrie.png" alt="Valkyrie Sandra">
+        <div class="salao-text">Bem-vindo, Viajante!</div>
+    </div>
+
+    <main class="scroll-container">
+
+        <div class="kagerou" aria-hidden="true"></div>
+        <div class="boss-heydrich" aria-hidden="true"></div>
+        <div class="caveira-animada" aria-hidden="true"></div>
+
+        <section id="home" class="painel esquerda">
+            <div class="content">
+                <div class="profile-header">
+                    <div class="foto-container">
+                        <img src="perfil.jpg" alt="Foto de Victor Hiromi">
+                    </div>
+                    <div class="info-principal">
+                        <h1>Victor Hiromi Maisaka</h1>
+                        <p class="sub-cargo">ENGENHARIA DE COMPUTAÇÃO</p>
+                        <p><i class="fa-solid fa-location-dot"></i> São Paulo, Brasil</p>
+                    </div>
+                </div>
+
+                <div class="contatos-grid">
+                    <a href="https://www.linkedin.com/in/victor-hiromi-maisaka/" target="_blank" class="social-btn">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/HiromiMSK" target="_blank" class="social-btn">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                    <div class="contato-direto">
+                        <p><i class="fa-solid fa-envelope"></i> victore.msk@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ficha" class="painel direita">
+            <div class="content">
+                <h2>📜 Perfil do Jogador</h2>
+                <p class="descricao-tech">
+                    <span class="destaque">Victor "Hiro" Maisaka</span><br>
+                    Classe: <span style="color:#00ff00">Engenheiro da Computação</span><br>
+                    Nível: <span style="color:#ffff00">Júnior / Trainee</span><br>
+                    Guilda: <span style="color:#ff4500">Open to Work</span>
+                </p>
+
+                <hr style="border-color:#333; margin:10px 0;">
+
+                <div class="stats-rpg" style="font-size:0.8rem; font-family:'Press Start 2P'; color:#ccc;">
+                    <p>STR (Lógica): ████████░░ 80%</p>
+                    <p>AGI (Debug): █████████░ 90%</p>
+                    <p>INT (Code): ███████░░░ 70%</p>
+                    <p>LUK (Café): ██████████ 100%</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="renbank" class="painel esquerda">
+            <div class="content">
+                <h2>🏦 RENEBANK <span class="nivel">LVL. 50</span></h2>
+                <div class="tags">
+                    <span class="tag">Java</span>
+                    <span class="tag">Spring Boot</span>
+                    <span class="tag">React</span>
+                </div>
+                <p class="descricao-tech">
+                    Sistema bancário digital desenvolvido em arquitetura de microsserviços.
+                </p>
+                <p class="conquista">🏆 Projeto Solo em Hackathon (48h)</p>
+                <a href="https://github.com/HiromiMSK/Projeto-RENEBANK" target="_blank" class="btn-repo big">
+                    <i class="fa-brands fa-github-alt"></i> ACESSAR REPOSITÓRIO
+                </a>
+            </div>
+        </section>
+
+        <section id="skills" class="painel direita">
+            <div class="content">
+                <h2>⚔️ ARSENAL TÉCNICO</h2>
+                <div class="skill-grid">
+                    <div class="skill-item"><i class="fa-brands fa-java"></i> Java / Spring</div>
+                    <div class="skill-item"><i class="fa-brands fa-python"></i> Python / AI</div>
+                    <div class="skill-item"><i class="fa-brands fa-js"></i> JavaScript</div>
+                    <div class="skill-item"><i class="fa-solid fa-database"></i> SQL / NoSQL</div>
+                    <div class="skill-item"><i class="fa-brands fa-html5"></i> HTML & CSS</div>
+                    <div class="skill-item"><i class="fa-solid fa-code-branch"></i> Git Flow</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="msk-corp" class="painel esquerda">
+            <div class="content">
+                <h2>⚙️ MSK CORP <span class="nivel">LVL. 80</span></h2>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Automação</span>
+                    <span class="tag">Data</span>
+                </div>
+                <p class="descricao-tech">
+                    Algoritmo de BI para otimização de PDV.
+                </p>
+                <p class="conquista">⚡ Redução de 30% no tempo de gestão</p>
+                <a href="https://github.com/HiromiMSK/MskCorp-PDV" target="_blank" class="btn-repo big">
+                    <i class="fa-brands fa-github-alt"></i> VER CÓDIGO
+                </a>
+            </div>
+        </section>
+
+        <section id="contato" class="painel centro">
+            <div class="content final-boss">
+                <h2>🎯 PRONTO PARA O START?</h2>
+                <p>Dev Jr ou Trainee</p>
+                <a href="mailto:victore.msk@gmail.com" class="btn-repo big shiny">
+                    <i class="fa-solid fa-paper-plane"></i> CONTRATAR AGORA
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="konami-section">
+        <div class="placa-konami">KONAMI CODE</div>
+        <p class="dica-konami">↑ ↑ ↓ ↓ ← → ← → B A</p>
+
+        <div class="special-event-box">
+            <p class="event-title">🔥 SPECIAL EVENT 🔥</p>
+            <p class="event-combo">↑ ↑ B A ↓ ↓</p>
+        </div>
+
+        <div class="controle-arcade">
+            <div class="dpad">
+                <div class="btn-dpad up" onclick="inputKonami('ArrowUp')">▲</div>
+                <div class="btn-dpad left" onclick="inputKonami('ArrowLeft')">◀</div>
+                <div class="btn-dpad center"></div>
+                <div class="btn-dpad right" onclick="inputKonami('ArrowRight')">▶</div>
+                <div class="btn-dpad down" onclick="inputKonami('ArrowDown')">▼</div>
+            </div>
+            <div class="action-btns">
+                <div class="btn-round b-btn" onclick="inputKonami('b')">B</div>
+                <div class="btn-round a-btn" onclick="inputKonami('a')">A</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fighter-overlay joe-theme">
+        <img src="joe.gif" class="fighter-sprite" alt="Joe Higashi" style="height:85vh;">
+        <div class="impacto-flash"></div>
+        <div class="ko-text">K.O.</div>
+    </div>
+
+    <div class="sakura-container"></div>
+
+    <audio id="musica-joe" src="joehigashi.mp3" preload="auto"></audio>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="ragja.js"></script>
+
+</body>
+</html>
